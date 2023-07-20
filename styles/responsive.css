@@ -144,12 +144,14 @@
 
     .online-game-container {
         margin-top: 65px;
+        padding top: 0;
     }
 
     /* play games */
     .play-container {
         flex-direction: column-reverse;
         text-align: center;
+        margin-top: 0;
     }
 
     .play-images {
@@ -172,6 +174,9 @@
         text-align: center;
         margin: 0;
         padding: 30px;
+    }
+    .games-container{
+        margin-top: 100px;
     }
 
     /* footer */
