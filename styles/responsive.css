@@ -25,7 +25,7 @@
         width: 100%;
     }
 
-    /* online game media query */
+    /* online game */
     .online-game-container {
         margin-top: 70px;
     }
@@ -53,7 +53,7 @@
         width: 100%;
     }
 
-    /* play games mobile media query */
+    /* Instant play */
     .play-container {
         flex-direction: column-reverse;
     }
@@ -72,7 +72,7 @@
         padding: 30px;
     }
 
-    /* games category media for mobile */
+    /* More games */
     .games-category {
         width: 140px;
         font-size: 5px;
@@ -85,7 +85,7 @@
         margin-top: 10px;
     }
 
-    /* footer media query */
+    /* footer */
     .footer-container {
         padding: 30px 0 40px;
     }
