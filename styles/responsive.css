@@ -109,4 +109,92 @@
     }
 }
 
+/*tablet*/
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container {
+        flex-direction: column;
+    }
 
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-content {
+        margin-top: 40px;
+    }
+
+    .banner-img {
+        width: 80%;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+
+    /* online game */
+    .online-box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .online-img {
+        width: 75%;
+        margin: 18px auto 0px;
+    }
+
+    .online-game-container {
+        margin-top: 65px;
+    }
+
+    /* play games */
+    .play-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .play-images {
+        width: 65%;
+        margin-right: 0;
+        margin: auto;
+        
+
+    }
+    .play-image2 img{
+        right: 60%;
+        bottom: -10%;
+    }
+
+    .play-image1 img {
+        width: 100%;
+    }
+
+    .play-content {
+        text-align: center;
+        margin: 0;
+        padding: 30px;
+    }
+
+    /* footer */
+    .footer-container {
+        padding: 30px 0 40px;
+    }
+
+    .footer-services {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .footer-item {
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+
+    .footer-btn {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-terms-cookies {
+        flex-direction: column;
+    }
+}
